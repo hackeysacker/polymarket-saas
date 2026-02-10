@@ -72,7 +72,7 @@ export default function PricingPage() {
                 </ul>
 
                 <Link
-                  href="/auth/signup"
+                  href="/dashboard"
                   className={cn(
                     "w-full py-2.5 px-4 text-sm font-medium rounded-lg text-center transition-colors",
                     tier.highlighted

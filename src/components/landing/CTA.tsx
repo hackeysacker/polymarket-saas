@@ -25,7 +25,7 @@ export default function CTA() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
-            href="/auth/signup"
+            href="/dashboard"
             className="w-full sm:w-auto px-8 py-3.5 text-base font-semibold text-white bg-primary-600 hover:bg-primary-500 rounded-xl shadow-lg shadow-primary-600/25 transition-all flex items-center justify-center gap-2"
           >
             Start Learning Free
@@ -40,8 +40,7 @@ export default function CTA() {
         </div>
 
         <p className="text-sm text-surface-500 mt-6">
-          Free tier includes 15 modules and read-only simulator access.
-          No credit card required.
+          Full demo mode — explore all features instantly. No login required.
         </p>
       </div>
     </section>

@@ -35,16 +35,10 @@ export default function Header() {
             </Link>
             <div className="w-px h-6 bg-surface-700 mx-2" />
             <Link
-              href="/auth/signin"
-              className="px-3 py-2 text-sm text-surface-300 hover:text-white rounded-lg hover:bg-surface-800 transition-colors"
-            >
-              Sign In
-            </Link>
-            <Link
-              href="/auth/signup"
+              href="/dashboard"
               className="px-4 py-2 text-sm font-medium text-white bg-primary-600 hover:bg-primary-500 rounded-lg transition-colors"
             >
-              Start Free
+              Go to Dashboard
             </Link>
           </nav>
 
@@ -76,18 +70,11 @@ export default function Header() {
             </Link>
             <div className="border-t border-surface-700 my-2" />
             <Link
-              href="/auth/signin"
-              className="block px-3 py-2 text-sm text-surface-300 hover:text-white rounded-lg hover:bg-surface-800"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Sign In
-            </Link>
-            <Link
-              href="/auth/signup"
+              href="/dashboard"
               className="block px-3 py-2 text-sm font-medium text-white bg-primary-600 rounded-lg text-center"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Start Free
+              Go to Dashboard
             </Link>
           </div>
         </div>

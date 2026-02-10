@@ -41,7 +41,7 @@ export default function Hero() {
           {/* CTA */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
             <Link
-              href="/auth/signup"
+              href="/dashboard"
               className="w-full sm:w-auto px-8 py-3.5 text-base font-semibold text-white bg-primary-600 hover:bg-primary-500 rounded-xl shadow-lg shadow-primary-600/25 hover:shadow-primary-500/30 transition-all flex items-center justify-center gap-2"
             >
               Start Learning Free

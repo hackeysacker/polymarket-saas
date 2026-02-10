@@ -64,7 +64,7 @@ export default function PricingSection() {
               </ul>
 
               <Link
-                href={tier.price === 0 ? "/auth/signup" : "/auth/signup"}
+                href="/dashboard"
                 className={cn(
                   "w-full py-2.5 px-4 text-sm font-medium rounded-lg text-center transition-colors",
                   tier.highlighted
